@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css"/>
+    <title>IO PORTFOLIO</title>
+</head>
+<!-- SECCION INICIO -->
+<section Id="inicio">
+    <div class = "contenido">
+        <header>
+            <div class="contenido-header">
+                <h1>|IO|</h1>
+                <nav id="nav" class="">
+                    <ul id="link">
+                        <li><a href="#inicio" class="seleccionado"onclick="seleccionar(this)">INICIO</a></li>
+                        <li><a href="#sobremi"onclick="seleccionar(this)">SOBRE MI</a></li>
+                        <li><a href="#servicios"onclick="seleccionar(this)">SERVICIOS</a></li>
+                        <li><a href="#contacto"onclick="seleccionar(this)">CONTACTO</a></li>
+                    </ul>
+                </nav>
+                <!-- icono del menu -->
+                <div id="icono-nav" onclick="responsiveMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <div class="redes">
+                    <a href="https://www.linkedin.com/in/ismael-oreste-8b116a254/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/ismaoresss"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/isma_ores/?hl=es-la"><i class="fa-brands fa-instagram-square"></i></a>
+                </div>
+            </div>
+        </header>
+        <div class="presentacion">
+            <p class="bienvenida">Bienvenidos</p>
+            <h2>Soy<span>Ismael Oreste</span>,Programador</h2>
+            <p class="descripcion"> Soy estudiante de programacion y busco 
+            profesionalizarme en el ambiente profeccional. </p>
+        </div>
+    </div>
+
+
+</section>
+<!-- SECCION SOBRE MI-->   
+<section Id="sobremi">
+    <div class="contenedor-foto">
+        <img src="img/perfil fotooo.jpg" alt="">
+    </div>
+    <div class="sobremi">
+        <p class="titulo-seccion">Sobre Mi</p>
+        <h2>Hola, soy <span>Ismael Oreste</span></h2>
+        <h3>Programador</h3>
+        <p>Mi meta es especializarme en
+            el campo de la programación y
+            unirme a un equipo profesional
+            donde los logros y éxitos de
+            cada miembro sean valorados
+            en el entorno laboral.</p>
+        <a href="file:///C:/Users/Usuario/Downloads/oreste_ismael_CV%20(8).pdf">Descargar CV</a>
+    </div>
+</section>
+<!-- SECCION CONOCIMIENTO-->
+<section id="servicios">
+    <h3 class="titulo-seccion">--MIS PROYECTOS--</h3>
+    <div class="fila">
+        <div class="servicio">
+            <span class="icono"> <i class="fa-solid fa-code"></i></span>
+            <h4>PROGRAMA DE GESTION DE MESAS<main></main></h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>C++</li>
+                <li>Code Block</li>
+            </ul>
+            <p>El programa Funciona excelente listo para el uso, cuya descripcion es mejorar la organizacion al momento de tomar los pedidos!</p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+            <h4>ABM ARTICULOS</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>C#</li>
+                <li>T-SQL</li>
+                <li>.NET Framework</li>
+            </ul>
+            <p>El programa cuenta con un excelente funcionamiento y cuenta con un diseño grafico a la altura del programa, la funcionalidad es la publicacion de articulos para la venta</p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+            <h4>ABM COLEGIO</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>visual Basic</li>
+                <li>T-SQL</li>
+                <li>.NET Framework</li>
+            </ul>
+            <p>El trabajo cuenta con la base datos de un colegio cuya funcionalidades son pasadas a la programacion, es un ABM de Alumnos</p>
+        </div>
+</section>
+
+<!-- SECCION H A B I L I D A D E S -->
+<section>
+<div class="contenedor-skills" id="skills">
+    <h3>HABILIDADES </h3>
+
+    <div class="skill">
+        <div class="info">
+            <p> <span class="lista"> </span>C++</p>
+            <span class="porcentaje">70%</span>
+        </div>
+
+        <div class="barra">
+            <div id="C++" class="barra-progreso1"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="info">
+            <p> <span class="lista"> </span>C#</p>
+            <span class="porcentaje">40%</span>
+        </div>
+
+        <div class="barra">
+            <div class="barra-progreso2" id="C#"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="info">
+            <p> <span class="lista"> </span>T-SQL</p>
+            <span class="porcentaje">45%</span>
+        </div>
+
+        <div class="barra">
+            <div class="barra-progreso3" id="bd"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="info">
+            <p> <span class="lista"> </span>JS</p>
+            <span class="porcentaje">25%</span>
+        </div>
+
+        <div class="barra">
+            <div class="barra-progreso4" id="js"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p> <span class="lista"> </span>HTML</p>
+            <span class="porcentaje">25%</span>
+        </div>
+
+        <div class="barra">
+            <div class="barra-progreso5" id="html"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <div class="info">
+            <p> <span class="lista"> </span>CSS</p>
+            <span class="porcentaje">25%</span>
+        </div>
+
+        <div class="barra">
+            <div class="barra-progreso6" id="css"></div>
+        </div>
+    </div>
+</section>
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+<!-- SECCTION FOOTER -->
+<footer>
+    <P>Todos los derechos reservados - 2024</P>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+    </div>
+</footer>
+<!-- seccion R E S P O N S I V E -->
+<script src="script.js"></script>
+
+<body>
+    
+</body>
+</html>
+
