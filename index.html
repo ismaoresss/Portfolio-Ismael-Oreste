@@ -170,26 +170,39 @@
         </div>
     </div>
 </section>
-    <!-- SECCTION C O N T A C T O -->
-    <section id="contacto">
-        <h3 class="titulo-seccion">Contactame</h3>
-        <div class="contenedor-form">
-            <form action="">
-                <div class="fila mitad">
-                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
-                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
-                </div>
-                <div class="fila">
-                    <input type="text" placeholder="Tema..." class="input-full">
-                </div>
-                <div class="fila">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
-                </div>
+<!-- SECCTION C O N T A C T O -->
+<section id="contacto">
+    <h3 class="titulo-seccion">Contactame</h3>
+    <div class="contenedor-form">
+        <form action="https://formspree.io/f/xnqewwap" method="POST">
+            <div class="fila mitad">
+                <label>
+                    Nombre Completo*:
+                    <input type="text" name="nombre" placeholder="Nombre Completo" class="input-mitad">
+                </label>
+                <label>
+                    Dirección de Email*:
+                    <input type="email" name="email" placeholder="Dirección de Email" class="input-mitad">
+                </label>
+            </div>
+            <div class="fila">
+                <label>
+                    Tema*:
+                    <input type="text" name="tema" placeholder="Tema..." class="input-full">
+                </label>
+            </div>
+            <div class="fila">
+                <label>
+                    Mensaje*:
+                    <textarea name="mensaje" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </label>
+            </div>
 
-                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
-            </form>
-        </div>
-    </section>
+            <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+        </form>
+    </div>
+</section>
+
 <!-- SECCTION FOOTER -->
 <footer>
     <P>Todos los derechos reservados - 2024</P>
