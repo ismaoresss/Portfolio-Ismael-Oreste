@@ -382,7 +382,7 @@
                 width: 0;
             }
             100% {
-                width: 50%;
+                width: 60%;
             }
         }
         
@@ -391,7 +391,7 @@
                 width: 0;
             }
             100% {
-                width: 60%;
+                width: 70%;
             }
         }
         @keyframes progreso4 {
@@ -415,7 +415,7 @@
                 width: 0;
             }
             100% {
-                width: 45%;
+                width: 50%;
             }
         }
         @keyframes progreso7 {
