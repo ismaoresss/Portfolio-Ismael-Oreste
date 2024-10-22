@@ -374,6 +374,12 @@
             height: 6px;
             animation: progreso8 2s forwards;
         }
+        .contenedor-skills .skill .barra .barra-progreso9 {
+            background-color: #fff;
+            width: 30%;
+            height: 6px;
+            animation: progreso9 2s forwards;
+        }
 
         @keyframes progreso1 {
             0% {
@@ -439,6 +445,14 @@
             }
             100% {
                 width: 60%;
+            }
+        }
+        @keyframes progreso9 {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 30%;
             }
         }
         /* *********************/
