@@ -518,7 +518,7 @@
             text-transform: uppercase;
             color: #111135;
             text-decoration: underline;
-            text-decoration-color: #d3d3d3;
+            text-decoration-color: #919191;
             text-decoration-thickness: 5px;
         }
         
@@ -531,7 +531,7 @@
         }
         
         #contacto .btn-enviar:hover {
-            background-color: #ff5080;
+            background-color: #7362c0cc;
             color: #fff;
         }
 
