@@ -216,7 +216,7 @@
         /* *********************/
         
         #servicios {
-            padding: 100px 15px;
+            padding: 50px 0px;
             text-align: center;
             background-color: #f3f3f3;
         }
@@ -232,23 +232,29 @@
         }
         
         #servicios .fila {
-            display: flex;
-            justify-content: space-between;
-            max-width: 1150px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columnas por fila */
+            gap: 20px;
+            justify-content: center;
+            max-width: 1100px;
             margin: 30px auto;
         }
         
         #servicios .fila .servicio {
-            max-width: 350px;
             background-color: #fff;
             padding: 30px;
-            margin: 0 5px;
             border-radius: 5px;
             transition: .5s;
+            min-height: auto;
         }
         
         #servicios .fila .servicio:hover {
             box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+        }
+        
+        #servicios .fila .servicio h4 {
+            font-size: 22px;
+            margin-bottom: 25px;
         }
         
         #servicios .fila .servicio .icono {
@@ -258,11 +264,6 @@
             border-radius: 50%;
             background-color: #d3d3d3;
             padding: 20px;
-            margin-bottom: 25px;
-        }
-        
-        #servicios .fila .servicio h4 {
-            font-size: 22px;
             margin-bottom: 25px;
         }
         
@@ -276,8 +277,9 @@
         #servicios .fila .servicio ul {
             list-style: none;
             display: flex;
-            justify-content: space-around;
-            margin-bottom: 10px;
+            justify-content: center;
+            gap: 10px;
+           
         }
         
         #servicios .fila .servicio p {
