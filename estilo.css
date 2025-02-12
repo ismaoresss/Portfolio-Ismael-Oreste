@@ -354,16 +354,11 @@
         }
         .contenedor-skills .skill .barra .barra-progreso5 {
             background-color: #fff;
-            width: 60%;
+            width: 65%;
             height: 6px;
             animation: progreso5 2s forwards;
         }
-        .contenedor-skills .skill .barra .barra-progreso6 {
-            background-color: #fff;
-            width: 65%;
-            height: 6px;
-            animation: progreso6 2s forwards;
-        }
+        
         .contenedor-skills .skill .barra .barra-progreso7 {
             background-color: #fff;
             width: 50%;
@@ -428,17 +423,10 @@
                 width: 0;
             }
             100% {
-                width: 60%;
-            }
-        }
-        @keyframes progreso6 {
-            0% {
-                width: 0;
-            }
-            100% {
                 width: 65%;
             }
         }
+    
         @keyframes progreso7 {
             0% {
                 width: 0;
@@ -471,6 +459,18 @@
                 width: 20%;
             }
         }
+
+        /* *********************/
+        /* seccion Portfolio */
+        /* *********************/
+
+
+
+
+
+
+
+
         /* *********************/
         /* seccion contacto */
         /* *********************/
