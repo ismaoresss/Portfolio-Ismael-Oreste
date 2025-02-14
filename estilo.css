@@ -39,7 +39,7 @@
         
         #inicio .contenido header .contenido-header h1 {
             text-align: center;
-            color: #ff5080;
+            color: #7a96e2;
         }
         
         #inicio .contenido header .contenido-header nav ul {
@@ -57,7 +57,7 @@
         }
         
         #inicio .contenido header .contenido-header nav ul li a:hover {
-            color: #ff5080;
+            color: #7a96e2;
         }
         
         #inicio .contenido header .contenido-header .redes a {
@@ -69,11 +69,11 @@
         }
         
         #inicio .contenido header .contenido-header .redes a:hover {
-            color: #ff5080;
+            color: #7a96e2;
         }
         
         #inicio .contenido header .contenido-header .seleccionado {
-            color: #ff5080;
+            color: #7a96e2;
         }
         
         #inicio .contenido .presentacion {
@@ -126,7 +126,7 @@
         }
         
         #inicio .contenido .presentacion a:hover {
-            background-color: #ff5080;
+            background-color: #7a96e2;
         }
         
         #icono-nav {
@@ -287,10 +287,11 @@
             line-height: 22px;
         }
 
-         /* *********************/
+        /* *********************/
         /* seccion Portfolio */
         /* *********************/
         #portfolio {
+            
             max-width: 1100px;
             padding: 100px 0;
             margin: auto;
