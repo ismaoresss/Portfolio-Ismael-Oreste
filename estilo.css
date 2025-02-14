@@ -700,5 +700,26 @@
                 width: 100%;
                 margin-bottom: 15px;
             }
+
+            /* FOOTER */
+
+            footer {
+                padding: 20px 0; /* Ajusta el padding para pantallas más pequeñas */
+            }
+        
+            footer a {
+                font-size: 20px; /* Reduce el tamaño de los iconos */
+                margin: 10px;    /* Aumenta el espacio entre los iconos */
+            }
+            footer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap; /* Permite que los iconos se ajusten a la línea siguiente si no caben en una sola línea */
+            }
+        
+            footer a {
+                margin: 10px; /* Aumentamos el margen para los iconos */
+            }
         }
         
